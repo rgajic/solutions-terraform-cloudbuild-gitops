@@ -15,7 +15,7 @@
 
 terraform {
   backend "gcs" {
-    bucket = "PROJECT_ID-tfstate"
+    bucket = "python-cloudrun-400813-tfstate"
     prefix = "env/dev"
   }
 }
